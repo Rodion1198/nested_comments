@@ -40,3 +40,8 @@ class Comment(models.Model):
         if not self.parent:
             return ''
         return self.parent
+
+
+class Empty(models.Model):
+    ...
+
